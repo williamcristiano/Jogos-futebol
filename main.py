@@ -81,5 +81,5 @@ class API:
         df = pandas.DataFrame(data)
         df.to_csv("Jogos_raspados.csv")
 
-    
-API()
+if __name__ == "__main__":
+    API()
